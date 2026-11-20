@@ -1,0 +1,12 @@
+2026-11-20T10:00:01Z kali sshd[1234]: Accepted password for luffy from 192.168.56.20 port 22 ssh2
+2026-11-20T10:01:15Z kali sshd[1235]: Accepted password for luffy from 192.168.56.20 port 22 ssh2
+2026-11-20T10:02:11Z kali sshd[1236]: Failed password for invalid user admin from 192.168.56.10 port 22 ssh2
+2026-11-20T10:02:19Z kali sshd[1237]: Failed password for invalid user admin from 192.168.56.10 port 22 ssh2
+2026-11-20T10:02:27Z kali sshd[1238]: Failed password for root from 192.168.56.10 port 22 ssh2
+2026-11-20T10:02:35Z kali sshd[1239]: Failed password for invalid user admin from 192.168.56.10 port 22 ssh2
+2026-11-20T10:02:44Z kali sshd[1240]: Failed password for root from 192.168.56.10 port 22 ssh2
+2026-11-20T10:03:05Z kali sshd[1241]: Accepted password for root from 192.168.56.10 port 22 ssh2
+2026-11-20T10:05:40Z kali sudo: luffy : TTY=pts/0 ; PWD=/home/luffy ; USER=root ; COMMAND=/usr/bin/apt update
+2026-11-20T10:06:02Z kali sshd[1242]: pam_unix(sshd:session): session opened for user luffy by (uid=0)
+2026-11-20T10:07:30Z kali sshd[1243]: Accepted publickey for luffy from 192.168.56.20 port 22 ssh2
+2026-11-20T10:08:12Z kali sshd[1244]: Disconnected from invalid user admin 192.168.56.10 port 22 [preauth]

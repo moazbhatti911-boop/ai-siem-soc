@@ -1,0 +1,20 @@
+# Secrets and local state — never commit these.
+.env
+*.db
+
+# Virtual environments
+venv/
+.venv/
+
+# Python caches and build output
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Streamlit / editor
+.streamlit/
+.vscode/
