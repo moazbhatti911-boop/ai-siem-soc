@@ -235,27 +235,3 @@ ai-siem-soc/
   paste it into chat, never hard-code it.
 - The anomaly model is a hint, not proof of an attack: always read the
   events behind an alert before acting.
-
-## GitHub push steps
-
-Create an empty public repo named `ai-siem-soc` at github.com/new with
-nothing ticked (no README, no .gitignore, no license), then:
-
-```bash
-cd ai-siem-soc
-git init
-git add .
-git status        # .env, venv/ and siem.db must NOT appear here
-git commit -m "Initial commit: AI-Powered SIEM & SOC Platform (lab-only)"
-git branch -M main
-git remote add origin https://github.com/<your-username>/ai-siem-soc.git
-git push -u origin main
-```
-
-Later updates:
-
-```bash
-git add .
-git commit -m "Describe the change"
-git push
-```
