@@ -1,6 +1,6 @@
 # Architecture
 
-AI-Powered SIEM & SOC Platform — lab-only. It ingests logs from your own lab
+AI-Powered SIEM & SOC Platform. It ingests logs from your own lab
 machines (or the bundled samples), detects suspicious activity with rules and
 a small ML model, stores everything in SQLite, and shows it in a SOC
 dashboard. Everything runs on `127.0.0.1`.
@@ -37,7 +37,7 @@ samples/*.log ──> ingestor ──POST /events──> server (FastAPI :8003)
 
 ## Security notes
 
-- Lab-only: ingest logs from your own lab machines or the samples only.
+- Ingest logs from your own lab machines or the samples only.
 - The server binds to `127.0.0.1` and every endpoint except `/health`
   requires the `X-API-Key` header.
 - The API key lives in `.env`, which is git-ignored and must never be committed.

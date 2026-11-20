@@ -6,7 +6,6 @@ Usage::
     python -m ingestor.main --file /var/log/auth.log --server-url http://127.0.0.1:8003
 
 The API key is read from the ``SIEM_API_KEY`` environment variable (see ``.env``).
-Lab-only: point this at your own lab machines' logs or the bundled samples.
 """
 
 import argparse

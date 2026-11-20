@@ -1,15 +1,14 @@
 # AI-Powered SIEM & SOC Platform
 
-A lab-only Security Information and Event Management (SIEM) and Security
+A Security Information and Event Management (SIEM) and Security
 Operations Center (SOC) platform in Python. It ingests logs from your own lab
 machines (or the bundled samples), detects suspicious activity with rules
 plus a small machine-learning model, stores events and alerts in SQLite, and
 shows them in a SOC dashboard.
 
-> **Lab-only scope.** Ingest logs from your own lab machines or the sample
-> logs only. The server binds to `127.0.0.1` and never talks to real
-> networks. Do not point this at a production system or a network you do
-> not own.
+> Ingest logs from your own lab machines or the sample logs only. The
+> server binds to `127.0.0.1` and never talks to real networks. Do not
+> point this at a production system or a network you do not own.
 
 ## What it does
 
@@ -228,7 +227,7 @@ ai-siem-soc/
 
 ## Security
 
-- Lab-only: ingest logs from your own lab machines or the samples only.
+- Ingest logs from your own lab machines or the samples only.
 - The server listens on `127.0.0.1` only; all API calls except `/health`
   require the `X-API-Key` header.
 - The API key lives in `.env` and is git-ignored — never commit it, never
